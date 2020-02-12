@@ -1,0 +1,146 @@
+/*
+	Folha de estilos TCC
+*/
+
+body {
+	margin:0;
+	padding:0;
+	font-family:"Trebuchet MS";
+	background-image: url(../img/body.png);
+}
+
+/* Alinhamento central */
+
+#content {
+	width:1350px;
+	margin-left:-675px;
+	left:50%;
+	position:relative;
+}
+
+#content2 {
+	width:1020px;
+	margin-left:-510px;
+	left:50%;
+	position:relative;
+}
+
+#posEncontre {
+	width:430px;
+	height:210px;
+	margin-top:-95px;
+}
+
+/* Utilitários */
+
+/* link que ainda não foi visitado */
+a:link {
+   color: inherit;
+}
+
+/* link que foi visitado */
+a:visited {
+    color: inherit;
+}
+
+/* mouse over */
+a:hover {
+    color: inherit;
+}
+
+/* link selecionado */
+a:active {
+    color: inherit;
+}
+
+.banner {
+	width:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:530px;
+	background-image: url(../img/banner-top.png);
+}
+
+.banner .icones {
+	height:30px;
+	font-size:30px;
+	color:white;
+	text-shadow: 0px 3px 15px rgba(0,0,0,0.30);
+	top:25px;
+	position:relative;
+}
+
+.title1 {
+	font-size:30px;
+	font-family:"Myriad Pro";
+	color:#7f7f7f;
+}
+
+.title2 {
+	font-size:22px;
+	font-family:"Myriad Pro";
+	font-style:italic;
+	color:#7f7f7f;
+	letter-spacing:-0.1px;
+	line-height:18px;
+}
+
+.forma {
+	height:130px;
+	width:100%;
+	background-color:white;
+	border-radius:5px;
+	margin-top:30px;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.18);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.18);
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.18);
+}
+
+.formaescol {
+	width:100%;
+	height:31px;
+	background-color:#ebebeb;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	-webkit-box-shadow: inset 0px -1px 0px 0px rgba(203,203,203,1);
+	-moz-box-shadow: inset 0px -1px 0px 0px rgba(203,203,203,1);
+	box-shadow: inset 0px -1px 0px 0px rgba(203,203,203,1);
+}
+
+.escolha1 {
+	width:65px;
+	text-align:center;
+	float:left;
+	height:31px;
+	padding:0px 75px 0px 75px;
+	line-height:31px;
+	border-top-left-radius:5px;
+}
+
+.escolha1:hover {
+	background-color:white;
+	border-bottom:3px solid rgba(227,118,28,1);
+	height:28px;
+	-webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.22);
+-moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.22);
+box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.22);
+}
+
+.escolha2 {
+	width:65px;
+	height:31px;
+	text-align:center;
+	float:right;
+	padding:0px 75px 0px 75px;
+	line-height:31px;
+	border-top-right-radius: 5px;
+}
+
+.escolha2:hover {
+	background-color:white;
+	border-bottom:3px solid rgba(227,118,28,1);
+	height:28px;
+	-webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.22);
+-moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.22);
+box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.22);
+}
